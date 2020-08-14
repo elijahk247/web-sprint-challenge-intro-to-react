@@ -5,7 +5,7 @@ import styled from 'styled-components'
 const StyledCharacters = styled.div`
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 
     margin: 10% auto;
     /*border: 1px solid black;*/
