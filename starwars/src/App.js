@@ -18,7 +18,7 @@ const App = () => {
     axios.get('https://swapi.dev/api/people/')
       .then(res => {
         console.log(typeof(res), res)
-        console.log(typeof(Array.from(res.data.results)), Array.from(res.data.results))
+        console.log(typeof(res.data.results), res.data.results)
 
         const listChars = res.data.results
         setCharacters(listChars)
